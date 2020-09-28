@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainFragment" >
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#23D1CC"
+        android:text="FORMULAS "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccione la formula que desea visualizar:"
+        android:textColor="#000000" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioButton
+            android:id="@+id/radiobtn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Triángulo" />
+
+        <RadioButton
+            android:id="@+id/radiobtn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cuadrado" />
+
+        <RadioButton
+            android:id="@+id/radiobtn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Círculo " />
+
+        <RadioButton
+            android:id="@+id/radiobtn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rectángulo" />
+
+        <RadioButton
+            android:id="@+id/radiobtn5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cilindro" />
+
+        <RadioButton
+            android:id="@+id/radiobtn6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trapecio" />
+
+        <RadioButton
+            android:id="@+id/radiobtn7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hexágono" />
+
+        <RadioButton
+            android:id="@+id/radiobtn8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pentágono " />
+
+        <RadioButton
+            android:id="@+id/radiobtn9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rombo" />
+
+        <RadioButton
+            android:id="@+id/radiobtn10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Romboide" />
+
+        <Button
+            android:id="@+id/btnSelec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar" />
+    </RadioGroup>
+</LinearLayout>
